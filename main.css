@@ -1,0 +1,37 @@
+.contenedor{
+    position: relative;
+}
+
+.letras p{
+    margin-top: -10px;
+    color: white;
+    text-align: end;
+    margin-right: 20px;
+}
+
+.letras h1{
+    margin-top: -200px;
+    color: white;
+    text-align: end;
+    box-shadow: 0px 2px 2px rgb(0, 0, 0, 0.2);
+}
+
+.letras button{
+    background-color: transparent;
+    box-shadow: 0px 1px 1px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: solid white;
+    color: white;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.normal:hover{
+    transform: scale(1.05, 1.05);
+}
+
+.verde:hover{
+    background-color: green;
+    transform: scale(1.05, 1.05);
+}
+
