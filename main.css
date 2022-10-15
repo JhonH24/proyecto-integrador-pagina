@@ -22,16 +22,25 @@ article h2 {
     justify-content: center;
 }
 
-section {
+.caja1 {
     display: flex;
     justify-content: center;
+    margin: 30px auto;
 }
 
-.playa img {
-    width: 500px;
+.caja1 img {
+    width: 600px;
+    margin-right: 3px;
 }
 
-.palabras {
+.caja2 {
     background-color: darkslategrey;
     color: white;
+    width: 600px;
+    padding: 15px 15px;
+    text-align: left;
+}
+
+.titulo2 {
+    text-align: center;
 }
