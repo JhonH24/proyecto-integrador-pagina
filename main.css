@@ -9,7 +9,7 @@
 
 .letras {
     position: relative;
-    margin-right: 150px;
+    margin-right: 100px;
     top: 350px;
     text-shadow: 1px 1px 2px black;
     color: floralwhite;
@@ -33,14 +33,14 @@ article h2 {
 }
 
 .caja1 img {
-    width: 600px;
+    width: 50%;
     margin-right: 3px;
 }
 
 .caja2 {
     background-color: darkslategrey;
     color: white;
-    width: 600px;
+    width: 50%;
     padding: 15px 15px;
     text-align: left;
 }
@@ -52,12 +52,6 @@ article h2 {
 
 .titulo2 input {
     width: 300px;
-}
-
-.titulo2 button {
-    width: 610px;
-    border-radius: 5px;
-    background-color: chartreuse;
 }
 
 textarea {

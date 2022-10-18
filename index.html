@@ -93,8 +93,7 @@
 
   <section>
     <div class="caja1">
-      <img src="./asset/img/honolulu.jpg" alt="playa honolulu">
-
+      <img src="./asset/img/honolulu.jpg" class="img-fluid" alt="playa honolulu">
 
       <div class="caja2">
         <h3>Bs As - OCTUBRE</h3>
@@ -115,9 +114,14 @@
         <input type="text" placeholder="Nombre" id="nombre">
         <input type="text" placeholder="Apellido" id="apellido">
         <br>
-        <textarea placeholder="Sobre qué quieres hablar? " name="" id="" cols="80" rows="5"></textarea>
+        <div class="input-group">
+          <textarea class="form-control" placeholder="Sobre que quieres hablar" aria-label="With textarea"></textarea>
+        </div>
+
         <p style="opacity: 0.5;">Recuerda incluir un titulo para tu charla</p>
-        <button>Enviar</button>
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="button">Enviar</button>
+        </div>
       </div>
     </div>
   </section>
