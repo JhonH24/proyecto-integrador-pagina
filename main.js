@@ -10,23 +10,23 @@ const descuentoJunior = 0.15;
 
 //tomo valores
 const cantidad = document.getElementById('cantidad')
-const categoria = document.getElementById('categoriaSelect');
-const botonCalcular = document.getElementById('btn-resumen');
-const botonReset = document.getElementById('btn-borrar');
+const categoria = document.getElementById('categoria');
+const botonResumen = document.getElementById('btn-resumen');
+const botonBorrar = document.getElementById('btn-borrar');
 const parrafo = document.getElementById('totalPagar');
 
 //funcion total pagar
 
-function totalPagar(){
+function totalPagar() {
 
     let totalValor = (cantidad.value) * valorTicket;
 
-    if (categoria.value == 1){
+    if (categoria.value == 1) {
         totalValor = totalValor - (totalValor * descuentoEstudiante);
-    }else if (categoria.value == 2){
+    } else if (categoria.value == 2) {
         totalValor = totalValor - (totalValor * descuentoTrainee);
 
-    }else if (categoria.value == 3){
+    } else if (categoria.value == 3) {
         totalValor = totalValor - (totalValor * descuentoJunior);
 
     }
@@ -34,8 +34,8 @@ function totalPagar(){
 
 }
 //boton calcular
-botonResumen.addEventListener('click',totalPagar);
+botonResumen.addEventListener('click', totalPagar);
 //boton reset
-botonBorrar.addEventListener('click',()=>{
-    parrafo.textContent='Total a pagar : ';
+botonBorrar.addEventListener('click', () => {
+    parrafo.textContent = 'Total a pagar : ';
 });
