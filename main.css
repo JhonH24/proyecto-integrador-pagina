@@ -49,3 +49,64 @@ textarea {
 footer a {
     text-decoration: none;
 }
+
+/* CSS para Comprar Tickets */
+
+.card-contain {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.b-azul {
+    width: 14rem;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding-top: 1rem;
+    height: 12rem;
+}
+
+.b-verde {
+    width: 14rem;
+    border: 1px solid green;
+    padding-top: 1rem;
+    height: 12rem;
+}
+
+.b-anaranjado {
+    width: 14rem;
+    border: 1px solid darkorange;
+    margin-left: 5px;
+    padding-top: 1rem;
+    height: 12rem;
+}
+
+.btn-contain {
+    display: flex;
+    margin-top: 1rem;
+}
+
+#btn-borrar {
+    width: 50%;
+    background-color: #318ce7;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btn-resumen {
+    width: 50%;
+    background-color: #318ce7;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.container-fluid p {
+    background-color: rgb(160, 178, 208);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 24px;
+}
